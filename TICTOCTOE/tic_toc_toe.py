@@ -118,7 +118,7 @@ def START_GAME():
     TABLE1 = [" "," "," "," "," "," "," "," "," "]
     TABLE_FULL = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     while True: 
-        print(PLAYER)
+        #print(PLAYER)
         if(COUNT == 0 or COUNT == 2 or COUNT == 4 or COUNT == 6 or COUNT == 8):
             SYMBOL_GAME = PLAYER[0]
             TURN = 1
@@ -274,8 +274,8 @@ def START_GAME():
         #print(A)
         CREATE_BOARD_EX()
         CREATE_BOARD(A)
-        print(TABLE_FULL)
-        print(TABLE_EMPTY)
+        #print(TABLE_FULL)
+        #print(TABLE_EMPTY)
         TABLE_EMPTY.clear()
         if(FULL == True):
             print("\033[31m","PLEASE CHOOSE OTHER PLACE, BECAUSE THIS SECTION IS FULL AND USING","\033[0m")
