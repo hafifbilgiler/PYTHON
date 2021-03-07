@@ -271,6 +271,14 @@ def START_GAME():
              print("\033[92m","PLAYER2 IS WON----> "+PLAYER[1]+"\033[0m")
            CREATE_BOARD(A)
            break
+        elif(TABLE[1]==TABLE[4] and TABLE[4]==TABLE[7]):
+           print("\033[92m","GAME IS ENDED----> ","\033[0m")
+           if(TABLE[1] == PLAYER[0] ):
+             print("\033[92m","PLAYER1 IS WON----> "+PLAYER[0]+"\033[0m")    
+           else:
+             print("\033[92m","PLAYER2 IS WON----> "+PLAYER[1]+"\033[0m")
+           CREATE_BOARD(A)
+           break
         #print(A)
         CREATE_BOARD_EX()
         CREATE_BOARD(A)
