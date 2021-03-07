@@ -1,11 +1,8 @@
 # PYTHON
-THIS REPOSITORY CONTAINS THE PYTHON CODES
-
-Hi valuable user, you can play TIC-TOC-TOE game with tihs code.
 
 ====================TIC-TOC-TOE===============================
+Hi valuable user, you can play TIC-TOC-TOE game with tihs code.
 
 FOR LINUX AND WINDOWS:
-
 .python tic_toc_toe.py
 
