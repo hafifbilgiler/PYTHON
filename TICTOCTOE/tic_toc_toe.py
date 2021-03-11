@@ -114,7 +114,7 @@ def START_GAME():
     CREATE_BOARD(TABLE)
     CHOSE_SYMBOL()
     COUNT=0
-    TABLE = ["T","I","C","t","A","C","t","O","E"]
+    TABLE = ["T","I","C","t","A","C","t","o","E"]
     TABLE1 = [" "," "," "," "," "," "," "," "," "]
     TABLE_FULL = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     while True: 
@@ -287,7 +287,7 @@ def START_GAME():
         TABLE_EMPTY.clear()
         if(FULL == True):
             print("\033[31m","PLEASE CHOOSE OTHER PLACE, BECAUSE THIS SECTION IS FULL AND USING","\033[0m")
-        else:
+        elif(NUMBER==True):
             COUNT += 1
 HAFIF_BILGILER()
 START_GAME()
